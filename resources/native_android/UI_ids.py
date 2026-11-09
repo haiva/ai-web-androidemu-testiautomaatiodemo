@@ -13,7 +13,7 @@ LOGIN_SUBMIT_BUTTON = "TODO"
 LOGGED_IN_INDICATOR = "TODO"
 LOGOUT_BUTTON = 'android=new UiSelector().text("Kirjaudu ulos")'   # TODO: vahvista
 
-# --- Navigaatio (vrt. YLEn esimerkki) ---
+# --- Navigaatio ---
 # TODO: sovelluksen alapalkin välilehdet
 MAIN_ACCOUNT_NAVIGATION_ITEMS = ["TODO"]
 SUB_ACCOUNT_NAVIGATION_ITEMS = ["TODO"]

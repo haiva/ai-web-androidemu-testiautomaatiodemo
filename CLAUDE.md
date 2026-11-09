@@ -1,6 +1,6 @@
-# Yle – Robot Framework -testiautomaatio
+# Robot Framework -testiautomaatio (yle.fi ja Yle-sovellus)
 
-Tämä repo peilaa YLEn tuotantorepon rakennetta: **yksi repo, samat ylätason testitapaukset
+Repon rakenne: **yksi repo, samat ylätason testitapaukset
 kaikille päätelaitteille, alustakohtainen toteutus omissa kansioissaan.**
 Rakenteen säilyttäminen on tärkeämpää kuin nopeus.
 
@@ -50,7 +50,7 @@ tests/                        VAIN ylätason testitapaukset (.robot)
 9. Odotukset: Browser → `Wait For Elements State` (auto-wait), Appium →
    `Wait Until Page Contains Element`. Ei kiinteitä `Sleep`-viiveitä.
    API: `Create Session` aliaksella `yle` → `GET On Session` (tarkistaa statuksen automaattisesti).
-10. Keywordien nimet englanniksi Title Case (YLEn käytäntö). `[Documentation]` lyhyesti.
+10. Keywordien nimet englanniksi Title Case. `[Documentation]` lyhyesti.
 11. Ylätason testit kirjoitetaan Given/When/Then-henkisinä lauseina, kun se on luontevaa.
 
 ## MCP-työkalut
@@ -76,7 +76,7 @@ scripts/aja.sh api                  # API-testitaso: tests/api/, RequestsLibrary
 scripts/aja.sh web --dryrun         # rakenteen tarkistus ilman selainta
 ```
 Windowsissa PowerShellistä: `scripts\aja.ps1 web` (samat argumentit).
-Vastaa YLEn komentoa:
+Vastaa komentoa:
 `robot --variable OS:web --variable DEVICE:chromium_desktop --variable MAIN_OR_SUB:main --variable EXEC_ENV:TEST --include web_test tests/`
 API: `robot --variable EXEC_ENV:TEST --include api_test tests/api/`
 

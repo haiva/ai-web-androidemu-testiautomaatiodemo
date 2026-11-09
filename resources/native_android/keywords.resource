@@ -24,7 +24,7 @@ User Should Be Logged In
     Wait Until Page Contains Element    ${LOGGED_IN_INDICATOR}    timeout=15
 
 Navigation Items Should Be
-    [Documentation]    Tarkistaa profiilin (main/sub) navigaatiokohteet, vrt. YLEn esimerkki.
+    [Documentation]    Tarkistaa profiilin (main/sub) navigaatiokohteet.
     FOR    ${item}    IN    @{${MAIN_OR_SUB}_ACCOUNT_NAVIGATION_ITEMS}
         Wait Until Page Contains Element    ${item}    timeout=1
     END

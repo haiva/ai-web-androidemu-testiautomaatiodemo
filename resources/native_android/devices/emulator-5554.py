@@ -1,5 +1,4 @@
-"""Android-emulaattori (Android Studio AVD). Tiedoston nimi = laitteen serial (adb devices),
-kuten YLEn laitefarmissa.
+"""Android-emulaattori (Android Studio AVD). Tiedoston nimi = laitteen serial (adb devices).
 
 APP_PACKAGE ja APP_ACTIVITY: selvitä skriptillä scripts/selvita_android_paketti.sh
 """

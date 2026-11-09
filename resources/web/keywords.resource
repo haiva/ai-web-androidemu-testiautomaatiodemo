@@ -22,7 +22,7 @@ User Should Be Logged In
     Wait For Elements State    ${LOGGED_IN_INDICATOR}    visible    timeout=15s
 
 Navigation Items Should Be
-    [Documentation]    Tarkistaa profiilin (main/sub) navigaatiokohteet, vrt. YLEn esimerkki.
+    [Documentation]    Tarkistaa profiilin (main/sub) navigaatiokohteet.
     FOR    ${item}    IN    @{${MAIN_OR_SUB}_ACCOUNT_NAVIGATION_ITEMS}
         Wait For Elements State    ${item}    visible    timeout=1s
     END

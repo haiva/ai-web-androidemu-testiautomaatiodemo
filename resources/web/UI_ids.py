@@ -18,7 +18,7 @@ LOGGED_IN_INDICATOR = '[data-testid="header-user-menu-toggle"]'   # nimikirjaime
 USER_MENU_TOGGLE = '[data-testid="header-user-menu-toggle"]'
 LOGOUT_BUTTON = '[data-testid="header-logout-button"]'            # piilossa, kunnes USER_MENU_TOGGLE avattu
 
-# --- Navigaatio (pää- ja alaprofiili, vrt. YLEn esimerkki) ---
+# --- Navigaatio (pää- ja alaprofiili) ---
 # TODO: yläpalkin osiot, esim. Uutiset, Urheilu
 MAIN_ACCOUNT_NAVIGATION_ITEMS = ["TODO"]
 SUB_ACCOUNT_NAVIGATION_ITEMS = ["TODO"]
