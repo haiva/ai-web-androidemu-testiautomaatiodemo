@@ -9,7 +9,6 @@ Kirjautuminen Yle Tunnuksella. Lisäksi oma API-testitaso: yle.fi:n julkiset RSS
 
 ## Rakenne (älä muuta ilman erillistä pyyntöä)
 ```
-jenkins/                      Jenkins-putkien groovy-tiedostot
 libraries/                    Omat Python-kirjastot (RF libraries)
 resources/
   <OS>/                       web | native_android | androidtv (käyttöliittymäalustat)
